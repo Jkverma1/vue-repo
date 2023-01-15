@@ -31,7 +31,7 @@ export default {
               >
                 <button class="sub-btn sub-dropdown-btn" :id="subitem.id">
                   <span
-                    ><img :src="subitem.iconPath" alt="" />
+                    ><img :src="subitem.iconPath" class="sub-btn-icon" alt="" />
                     {{ subitem.name }}</span
                   >
                   <i
